@@ -1,28 +1,4 @@
-@extends('navbar')
-
-    @section('content')
-    <img src="{{ url('img/bg.png')}}"/>
-    <div class="container">
-        <div class="v141_3744">
-            <div class="v27_2530"></div>
-                <span class="v27_2532">Pertanyaan Yang Sering Diajukan  Frequently Asked Questions</span>
-                    <span class="v27_2534">APA ITU J2 MOVIES ?</span>
-                        <span class="v27_2536" style="font: size 50%;">Adalah sebuah website penyedia jasa hiburan streaming film online yang mana berisikan konten-konten film dari hasil pencarian yang ada di internet . Kami tidak menyimpan atau melakukan cache terhadap file film tersebut dalam server kami, kami hanya menautkan. Kami sangat menyarankan Anda untuk mendukung pemilik karya cipta dengan cara membeli media secara legal agar pemilik hak cipta dapat terus berkarya.</span>
-                    <span class="v27_2538">FILM TIDAK DAPAT DIPUTAR ?</span>
-                 <span class="v27_2540">Ada beberapa kemungkinan jika film tidak dapat diputar, diantaranya :</span>
-             <span class="v27_2542">Koneksi internet anda kurang memadai untuk streaming. Coba anda refresh halaman streaming tersebut atau coba memainkan film dari lokal anda dengan cara mendownload film terlebih dahulu.
-                                    Browser anda tidak mendukung untuk menampilkan video player HTML5. Kami sarankan gunakan browser Firefox atau Chrome dengan versi yang terbaru.
-                                    Film sudah terhapus oleh provider penyimpan film. Seperti yang diketahui, film tersebut tidak disimpan di dalam server kami sendiri. Melainkan disimpan dari provider link tersebut masing-masing.</span>
-            <span class="v27_2544">BAGAIMANA CARA MELAPORKAN FILM YANG ERROR ?</span>
-                <span class="v27_2546">Sistem kami akan mendeteksi secara otomatis apabila film tersebut tidak dapat diputar atau error.</span>
-      </div>
-        </div>   
-     </div>
-    </div>
-</div>
-
-<style>
-    body {
+body {
     font-size: 14px;
 }
 
@@ -112,7 +88,7 @@
 }
 
 .v141_3744 {
-    width: 75%;
+    width: 100%;
     height: 757px;
     background: rgba(255, 255, 255, 1);
     opacity: 1;
@@ -236,6 +212,3 @@
     opacity: 1;
     text-align: left;
 }
-</style>
-          @endsection                  
-                                     

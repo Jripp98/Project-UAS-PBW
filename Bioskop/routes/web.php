@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\BioskopController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('page.homepage');
 });
+
+Route::get('/720p',[BioskopController::class,'show720']); 
+Route::get('/1080p',[BioskopController::class,'show1080']);
+Route::get('/faq',[BioskopController::class,'faq']);
+Route::get('/homepage',[BioskopController::class,'index']);
+Route::get('/play',[BioskopController::class,'playpage']);
