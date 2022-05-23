@@ -24,4 +24,4 @@ Route::get('/720p',[BioskopController::class,'show720']);
 Route::get('/1080p',[BioskopController::class,'show1080']);
 Route::get('/faq',[BioskopController::class,'faq']);
 Route::get('/homepage',[BioskopController::class,'index']);
-Route::get('/play',[BioskopController::class,'playpage']);
+Route::get('/nonton',[BioskopController::class,'play']);

@@ -22,4 +22,9 @@ class BioskopController extends Controller
     {
         return view('page.1080p');
     }
+    public function play()
+    {
+        return view('page.nonton');
+    }
+    
 }
