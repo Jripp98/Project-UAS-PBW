@@ -1,0 +1,22 @@
+.navbar {
+    color: rgb(33, 3, 101);
+    padding-top: 0, 75em!important;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: rgb(34, 0, 188);
+}
+
+.nav-link {
+    text-transform: uppercase;
+    margin-right: 80px;
+}
+
+.nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 1px rgb(188, 0, 0);
+    width: 100%;
+    margin-top: auto;
+}
